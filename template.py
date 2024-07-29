@@ -18,6 +18,9 @@ list_of_files = [
     f'src/{project_name}/entity/__init__.py',
     f'src/{project_name}/entity/config_entity.py',
     f'src/{project_name}/constants/__init__.py',
+    'tests/__init__.py',
+    'tests/unit/__init__.py', #testing single components
+    'tests/integration/__init__.py', #testing multiple components
     'config/config.yaml',
     'dvc.yaml',
     'params.yaml',
